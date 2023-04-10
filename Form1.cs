@@ -22,7 +22,7 @@ namespace Зачётное_задание
             try
             {
                 string str = textBox1.Text;
-                char[] strWords = { 'а', 'о', 'у', 'э', 'ы', 'я', 'ё', 'у', 'ю', 'и' };
+                char[] strWords = { 'а', 'о', 'у', 'э', 'ы', 'я', 'ё', 'у', 'ю', 'и', 'А', 'О', 'У', 'Э', 'Ы', 'Я', 'Ё', 'У', 'Ю', 'И' };
                 int wordsCount = 0;
                 for (int i = 0; i < str.Length; i++)
                 {
