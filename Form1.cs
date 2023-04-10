@@ -31,6 +31,7 @@ namespace Зачётное_задание
                         wordsCount++;
                     }
                 }
+                textBox2.Text = wordsCount.ToString();
             }
             catch (Exception ex)
             {
